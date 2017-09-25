@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="futsal.dev.yangadha">
+
+    <!--
+         The ACCESS_COARSE/FINE_LOCATION permissions are not required to use
+         Google Maps Android API v2, but you must specify either coarse or fine
+         location permissions for the 'MyLocation' functionality. 
+    -->
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".alpha.SplashscreenActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".alpha.DashboardActivity" />
+        <activity android:name=".alpha.ControllerMenuActivity" />
+        <activity
+            android:name=".alpha.LoginActivity"
+            android:theme="@style/AppTheme" />
+        <activity android:name=".alpha.Controller_StadiumList" />
+        <activity android:name=".alpha.Competition_Activity" />
+        <activity android:name=".alpha.Controller_MyTeamList" />
+        <activity android:name=".alpha.Controller_SparingList" />
+
+        <!--
+             The API key for Google Maps-based APIs is defined as a string resource.
+             (See the file "res/values/google_maps_api.xml").
+             Note that the API key is linked to the encryption key used to sign the APK.
+             You need a different API key for each encryption key, including the release key that is used to
+             sign the APK for publishing.
+             You can define the keys for the debug and release targets in src/debug/ and src/release/. 
+        -->
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="@string/google_maps_key" />
+
+        <activity
+            android:name=".alpha.MapsActivity"
+            android:label="@string/title_activity_maps"
+            android:theme="@style/Base.Theme.AppCompat" />
+        <activity android:name=".alpha.RegisterActivity" />
+        <activity android:name=".alpha.ProfileActivity" />
+        <activity android:name=".alpha.Detail_Competition_Activity" />
+        <activity android:name=".alpha.SimpleDirectionActivity"/>
+        <activity android:name=".alpha.Edit_Profile_User"/>
+        <activity android:name=".alpha.SignUp_Activity"/>
+
+    </application>
+
+</manifest>

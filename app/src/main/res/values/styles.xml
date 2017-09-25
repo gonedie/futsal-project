@@ -1,0 +1,113 @@
+<resources>
+
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="ActionBarCompat">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">50dp</item>
+        <item name="android:orientation">horizontal</item>
+        <item name="android:background">@drawable/actionbar_background</item>
+    </style>
+
+    <style name="DashboardButton">
+        <item name="android:layout_gravity">center_vertical</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:drawablePadding">2dp</item>
+        <item name="android:textSize">16dp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">#ff29549f</item>
+        <item name="android:background">@null</item>
+    </style>
+
+    <style name="FooterBar">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">40dp</item>
+        <item name="android:orientation">horizontal</item>
+        <item name="android:background">#dedede</item>
+    </style>
+
+    <style name="EditTextLogin">
+        <item name="android:layout_marginBottom">20dp</item>
+        <item name="android:layout_marginRight">20dp</item>
+        <item name="android:layout_marginLeft">20dp</item>
+        <item name="android:layout_height">50dp</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:textColorHint">#ffffff</item>
+        <item name="android:textColor">#ffffff</item>
+        <item name="android:paddingLeft">20dp</item>
+        <item name="android:paddingRight">20dp</item>
+        <item name="android:background">@drawable/custom_edit_text</item>
+    </style>
+
+    <style name="LoginButton">
+        <item name="android:layout_width">100dp</item>
+        <item name="android:layout_height">50dp</item>
+        <item name="android:layout_marginTop">30dp</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:textColor">#ffffff</item>
+        <item name="android:background">@drawable/main_button</item>
+        <!--<item name="android:shadowColor">#000000</item>-->
+        <!--<item name="android:shadowDx">1</item>-->
+        <!--<item name="android:shadowDy">1</item>-->
+        <!--<item name="android:shadowRadius">0.5</item>-->
+    </style>
+
+    <style name="MainButton">
+        <item name="android:textColor">#C5E8CA</item>
+    </style>
+
+    <style name="MainItemList">
+        <item name="android:textColor">#539f72</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="Text_Item_List_Normal">
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:text">Sample sample</item>
+        <item name="android:padding">5dp</item>
+        <item name="android:textSize">15dp</item>
+        <item name="android:textColor">#539f72</item>
+    </style>
+
+    <style name="Text_Item_List_Bold">
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:padding">5dp</item>
+        <item name="android:textSize">18dp</item>
+        <item name="android:textColor">#59615c</item>
+        <item name="android:text">Sample sample</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="Text_Menu_item">
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:padding">5dp</item>
+        <item name="android:textSize">20dp</item>
+        <item name="android:textColor">#59615c</item>
+        <item name="android:text">Sample sample</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="Text_Item_Detail_Player">
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:paddingBottom">10dp</item>
+        <item name="android:textSize">16dp</item>
+        <item name="android:textColor">@color/putih</item>
+    </style>
+
+    <style name="turnamen">
+        <item name="android:background">#ffffff</item>
+    </style>
+</resources>

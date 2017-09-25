@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+
+    <color name="putih">#ffffff</color>
+    <color name="main">#ffffff</color>
+
+    <color name="dot_active">#0048ff</color>
+    <color name="dot_inactive">#95abcc</color>
+</resources>
